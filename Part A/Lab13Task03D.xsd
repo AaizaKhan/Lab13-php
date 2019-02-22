@@ -1,0 +1,69 @@
+<xs:element name="muet">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="sw">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="batch16">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="students">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element minOccurs="0" name="sec02" type="xs:string" />
+                          <xs:element minOccurs="0" name="sec01" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="batchf16">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="students">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element minOccurs="0" name="sec02" type="xs:string" />
+                          <xs:element minOccurs="0" name="sec01" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="batch17">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="students">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element minOccurs="0" name="sec02" type="xs:string" />
+                          <xs:element minOccurs="0" name="sec01" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="batch18">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="students">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element minOccurs="0" name="sec02" type="xs:string" />
+                          <xs:element minOccurs="0" name="sec01" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+

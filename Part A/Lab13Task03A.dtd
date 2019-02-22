@@ -1,0 +1,61 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT cv (name,address,objective,education,skills)>
+<!ATTLIST cv
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT address (street,city,zip,email,phone)>
+<!ATTLIST address
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT objective (#PCDATA)>
+<!ATTLIST objective
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT education (degree,university,yearofpassing,gpa)>
+<!ATTLIST education
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT skills (#PCDATA)>
+<!ATTLIST skills
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT street (#PCDATA)>
+<!ATTLIST street
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT city (#PCDATA)>
+<!ATTLIST city
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT zip (#PCDATA)>
+<!ATTLIST zip
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT email (#PCDATA)>
+<!ATTLIST email
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT phone (#PCDATA)>
+<!ATTLIST phone
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT degree (#PCDATA)>
+<!ATTLIST degree
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT university (#PCDATA)>
+<!ATTLIST university
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT yearofpassing (#PCDATA)>
+<!ATTLIST yearofpassing
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT gpa (#PCDATA)>
+<!ATTLIST gpa
+  xmlns CDATA #FIXED ''>

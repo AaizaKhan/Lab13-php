@@ -1,0 +1,31 @@
+<xs:element name="cv">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string" />
+        <xs:element name="address">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="street" type="xs:string" />
+              <xs:element name="city" type="xs:string" />
+              <xs:element name="zip" type="xs:unsignedInt" />
+              <xs:element name="email" type="xs:string" />
+              <xs:element name="phone" type="xs:unsignedInt" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="objective" type="xs:string" />
+        <xs:element name="education">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="degree" type="xs:string" />
+              <xs:element name="university" type="xs:string" />
+              <xs:element name="yearofpassing" type="xs:string" />
+              <xs:element name="gpa" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="skills" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+

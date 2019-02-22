@@ -1,0 +1,44 @@
+<muet> 
+<sw>
+<batch16> 
+<students> 
+<sec01>  16SW09,16SW21,16SW159,16SW159 </sec01>
+</students>
+<students> 
+<sec02>  16SW02,16SW22,16SW154,16SW170 </sec02>
+
+</students>
+
+ </batch16>
+<batchf16> 
+<students> 
+<sec01>  16SW01,16SW23,16SW151,16SW173 </sec01>
+</students>
+<students> 
+<sec02>  16SW04,16SW24,16SW156,16SW178 </sec02>
+
+</students>
+
+ </batchf16>
+<batch17> 
+<students> 
+<sec01>  16SW13,16SW27,16SW129,16SW169 </sec01>
+</students>
+<students> 
+<sec02>  16SW08,16SW32,16SW164,16SW120 </sec02>
+
+</students>
+ </batch17>
+
+<batch18>
+<students> 
+<sec01>  16SW11,16SW41,16SW129,16SW179 </sec01>
+</students>
+<students> 
+<sec02>  16SW06,16SW32,16SW114,16SW130 </sec02>
+
+</students>
+
+  </batch18>
+ </sw>
+</muet>

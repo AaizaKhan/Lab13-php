@@ -1,0 +1,37 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT muet (sw)>
+<!ATTLIST muet
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT sw (batch16,batchf16,batch17,batch18)>
+<!ATTLIST sw
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT batch16 (students)+>
+<!ATTLIST batch16
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT batchf16 (students)+>
+<!ATTLIST batchf16
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT batch17 (students)+>
+<!ATTLIST batch17
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT batch18 (students)+>
+<!ATTLIST batch18
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT students (sec01|sec02)>
+<!ATTLIST students
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT sec01 (#PCDATA)>
+<!ATTLIST sec01
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT sec02 (#PCDATA)>
+<!ATTLIST sec02
+  xmlns CDATA #FIXED ''>
